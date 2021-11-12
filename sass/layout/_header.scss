@@ -1,0 +1,127 @@
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-item {
+    text-decoration: none;
+}
+
+.contact-item:not(:last-child) {
+    margin-right: 50px;
+}
+.contact-item:hover, .contact-item:focus {
+    color: var(--logo-text-color);
+}
+
+.header-connect {
+    margin-left: auto;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header-link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.name-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-title-color);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.name-link:hover, .name-link:focus {
+    color: var(--logo-text-color);
+}
+
+.name-link.current {
+    color: var(--logo-text-color);
+}
+
+.name-link.current::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -32px;
+    display: block;
+    background-color: var(--logo-text-color);
+}
+
+
+.header-mail-contact, .header-tel-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-mail-contact:hover, .header-mail-contact:focus {
+   fill: var(--logo-text-color);
+}
+.header-mail-contact:hover, .header-mail-contact:focus {
+   color: var(--logo-text-color);
+ }
+
+.header-tel-contact:hover, .header-tel-contact:focus {
+    color: var(--logo-text-color);
+}
+
+.header-tel-contact:hover, .header-tel-contact:focus {
+    fill: var(--logo-text-color);
+    
+}
+
+.contacts-icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contacts-icon-envelope:hover, .contacts-icon-envelope:focus {
+    fill:var(--logo-text-color);
+} 
+
+.contacts-icon-smartphone {
+ width: 10px;
+ height: 16px;
+ margin-right: 10px;
+ fill: currentColor;
+}
