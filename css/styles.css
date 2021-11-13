@@ -459,7 +459,7 @@ margin-bottom: 16px;
 /* кнопки */
 
 
-.section-buttons {
+/* .section-buttons {
     padding-top: 94px;
 }
 
@@ -500,7 +500,7 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-}
+} */
 
 
 
@@ -508,7 +508,7 @@ margin-bottom: 16px;
 
 /* проекти */
 
-.section-projects {
+/* .section-projects {
     padding-top: 50px;
 }
 
@@ -526,9 +526,9 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
-}
+} */
 
-.by-project {
+/* .by-project {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -544,9 +544,9 @@ color: var(--primary-text-color);
     flex-wrap: wrap;
     
     padding-bottom: 94px;
-}
+} */
 
-.project-item {
+/* .project-item {
     flex-basis: calc(100%/3-30px);
     width: 370px;
     margin-right: 30px;
@@ -560,8 +560,8 @@ color: var(--primary-text-color);
 .project-item-wrap {
     position: relative;
     overflow: hidden;
-}
-.project-img-text {
+} */
+/* .project-img-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -574,7 +574,7 @@ color: var(--primary-text-color);
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 
 
 /* .about-item-wrap {
@@ -606,7 +606,7 @@ color: var(--primary-text-color);
 
 
 
-.project-item:nth-child(3n) {
+/* .project-item:nth-child(3n) {
     margin-right: 0;
 }
 .project-item:nth-last-child(-n + 3) {
@@ -626,7 +626,7 @@ color: var(--primary-text-color);
 
 .project-item-link:focus, .project-item-link:hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 /* .client-list {

@@ -4,12 +4,12 @@
 
 
 .features {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 
@@ -26,33 +26,28 @@ margin: 0;
 
 
 .features-text {
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 10px;
 }
-
 
 
 .features-list {
     display: flex;
-
-    
 }
 
-
-.features-text {
-        margin-top: 10px;}
 
 .features-item {
     width: 270px;
-
+    
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.features-item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .invisible-title {
     display: none;

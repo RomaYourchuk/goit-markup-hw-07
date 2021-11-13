@@ -30,11 +30,11 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client-link:hover, .client-link:focus {
-    border-color: #2196F3;
-    
+    &:hover, 
+    &:focus {
+        border-color: #2196F3;
+        
+    }
 }
 
 .client-icon {
@@ -42,10 +42,11 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client-link:hover .client-icon, .client-link:focus .client-icon {
-    fill: #2196F3;
+    
+    .client-link:hover &, 
+    .client-link:focus & {
+        fill: #2196F3;
+    }
 }
 
 .client-item:not(:last-child) {

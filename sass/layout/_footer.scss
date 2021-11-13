@@ -25,12 +25,14 @@ footer {
     color: var(--contact-color);
     text-decoration: none;
     transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
-    .map-link:hover, .map-link:focus {
+    
+    &:hover, 
+    &:focus {
         color: var(--logo-text-color);
+    }
 }
 
 .mail-contact, .tel-contact {
@@ -42,18 +44,16 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .mail-contact:hover, .mail-contact:focus {
-        color: var(--logo-text-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
+    
+    &:hover, 
+    &:focus {
+        color: var(--logo-text-color);
+    }
 }
 
-.tel-contact:hover, .tel-contact:focus {
-    color: var(--logo-text-color);
-    transition-duration: 250ms;
-}
 
 .footer-container {
     display: flex;
@@ -65,6 +65,10 @@ footer {
     display: block;
     justify-content: space-around;
     align-content: flex-end;
+
+    &:not(:last-child) {
+        margin-right: 93px;
+    }
 }
 
 .footer-social-title {
@@ -84,9 +88,3 @@ footer {
 .footer-social-icon {
     fill: #AFB1B8;
     }
-
-
-    
-.footer-social:not(:last-child) {
-    margin-right: 93px;
-}

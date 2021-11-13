@@ -5,16 +5,18 @@
     letter-spacing: 0.03em;
     
     text-align: center;
-    }
-    
-    .about-list {
-        display: flex;
-        
-        margin-top: 50px;
-    }
-    .about-item:not(:last-child) {
+}
+
+.about-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.about-item:not(:last-child) {
     margin-right: 30px;
 }
+
 
 .about-item-wrap {
     position: relative;

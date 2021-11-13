@@ -11,6 +11,11 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .social-link:focus &, 
+    .social-link:hover &  {
+        fill: white;
+    }
 }
 
 .social-item {
@@ -19,20 +24,16 @@
     margin-right: 10px;
     text-align: center;
     border-radius: 50%;
-}
+    
+    &:hover, 
+    &:focus {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.social-item:hover, .social-item:focus {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-item:last-child {
-    margin-right: 0px;
-}
-
-.social-link:focus .social-icon, 
-.social-link:hover .social-icon  {
-    fill: white;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
 .social-link {
@@ -44,9 +45,11 @@
     align-items: center;
     border-radius: 50%;
     transition-property: background-color;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:focus, .social-link:hover {
-   background-color: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+    &:focus, 
+    &:hover {
+            background-color: #2196F3;
+    }
 }
