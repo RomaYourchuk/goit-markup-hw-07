@@ -65,6 +65,9 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+}
+
+.header__logo {
   margin-right: 93px;
 }
 
@@ -418,29 +421,29 @@ header {
   border-bottom: 1px solid #ECECEC;
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
 }
 
-.header-links {
+.nav__list {
   display: flex;
 }
 
-.contact-list {
+.header__contact-list {
   display: flex;
   margin-left: auto;
 }
 
-.contact-item {
+.header__contact-item {
   text-decoration: none;
 }
 
-.contact-item:not(:last-child) {
+.header__contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-item:hover, .contact-item:focus {
+.header__contact-item:hover, .header__contact-item:focus {
   color: var(--logo-text-color);
 }
 
@@ -453,11 +456,11 @@ header {
   align-items: center;
 }
 
-.header-link:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.name-link {
+.nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -470,15 +473,15 @@ header {
   position: relative;
 }
 
-.name-link:hover, .name-link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--logo-text-color);
 }
 
-.name-link.current {
+.nav__link.current {
   color: var(--logo-text-color);
 }
 
-.name-link.current::after {
+.nav__link.current::after {
   content: '';
   width: 100%;
   position: absolute;
@@ -489,7 +492,7 @@ header {
   background-color: var(--logo-text-color);
 }
 
-.header-mail-contact, .header-tel-contact {
+.header__contact-mail, .header__contact-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -503,18 +506,18 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail-contact:hover, .header-mail-contact:focus, .header-tel-contact:hover, .header-tel-contact:focus {
+.header__contact-mail:hover, .header__contact-mail:focus, .header__contact-tel:hover, .header__contact-tel:focus {
   color: var(--logo-text-color);
 }
 
-.contacts-icon-envelope {
+.contact__icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contacts-icon-smartphone {
+.contact__icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
